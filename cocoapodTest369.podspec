@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/vishnuprasannan333/cocoapodTest369'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'vishnuprasannan333' => 'hanif@bmuse.com' }
+  s.author           = { 'vishnuprasannan333' => 'vishnu@bmuse.com' }
   s.source           = { :git => 'https://github.com/vishnuprasannan333/cocoapodTest369.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'cocoapodTest369/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'cocoapodTest369' => ['cocoapodTest369/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'cocoapodTest369' => ['cocoapodTest369/Assets/*.storyboard']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
